@@ -33,10 +33,10 @@ TODO: Add long description of the pod here.
   s.source_files = 'CK_pod/Classes/**/*'
 
 
-  s.preserve_paths = '**/CRMTSDK.framework'
+  # s.preserve_paths = '**/CRMTSDK.framework'
   #s.source_files = '**/CRMTSDK.framework/Headers/*.h'
-  s.public_header_files = '**/CRMTSDK.framework/Headers/*.h'
-  s.vendored_frameworks = '**/CRMTSDK.framework'
+  # s.public_header_files = '**/CRMTSDK.framework/Headers/*.h'
+  s.vendored_frameworks = 'CK_pod/Classes/CRMTSDK.framework'
   
   # s.resource_bundles = {
   #   'CK_pod' => ['CK_pod/Assets/*.png']
@@ -44,5 +44,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SVProgressHUD'
 end
