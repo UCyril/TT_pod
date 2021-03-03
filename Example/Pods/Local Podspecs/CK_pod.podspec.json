@@ -1,0 +1,22 @@
+{
+  "name": "CK_pod",
+  "version": "0.1.0",
+  "summary": "A short description of CK_pod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1276865377@qq.com/CK_pod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1276865377@qq.com": "1276865377@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1276865377@qq.com/CK_pod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CK_pod/Classes/**/*"
+}

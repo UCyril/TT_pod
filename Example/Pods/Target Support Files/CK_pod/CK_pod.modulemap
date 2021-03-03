@@ -1,0 +1,6 @@
+framework module CK_pod {
+  umbrella header "CK_pod-umbrella.h"
+
+  export *
+  module * { export * }
+}
