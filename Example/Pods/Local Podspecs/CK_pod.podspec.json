@@ -1,6 +1,6 @@
 {
   "name": "CK_pod",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "summary": "A short description of CK_pod.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/UCyril/TT_pod",
@@ -13,13 +13,13 @@
   },
   "source": {
     "git": "https://github.com/UCyril/TT_pod.git",
-    "tag": "0.1.0"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "CK_pod/Classes/**/*",
-  "vendored_frameworks": "CK_pod/Classes/CRMTSDK.framework",
+  "vendored_frameworks": "CK_pod/Classes/*.framework",
   "dependencies": {
     "SVProgressHUD": [
 

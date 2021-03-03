@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CK_pod'
-  s.version          = '0.1.0'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of CK_pod.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,9 @@ TODO: Add long description of the pod here.
   # s.preserve_paths = '**/CRMTSDK.framework'
   #s.source_files = '**/CRMTSDK.framework/Headers/*.h'
   # s.public_header_files = '**/CRMTSDK.framework/Headers/*.h'
-  s.vendored_frameworks = 'CK_pod/Classes/CRMTSDK.framework'
+  # s.vendored_frameworks = 'CK_pod/Classes/CRMTSDK.framework'
+
+  s.vendored_frameworks = 'CK_pod/Classes/*.framework'
   
   # s.resource_bundles = {
   #   'CK_pod' => ['CK_pod/Assets/*.png']
