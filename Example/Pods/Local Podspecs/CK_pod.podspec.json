@@ -18,5 +18,8 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "CK_pod/Classes/**/*"
+  "source_files": "CK_pod/Classes/**/*",
+  "preserve_paths": "**/CRMTSDK.framework",
+  "public_header_files": "**/CRMTSDK.framework/Headers/*.h",
+  "vendored_frameworks": "**/CRMTSDK.framework"
 }

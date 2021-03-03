@@ -31,6 +31,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'CK_pod/Classes/**/*'
+
+
+  s.preserve_paths = '**/CRMTSDK.framework'
+  #s.source_files = '**/CRMTSDK.framework/Headers/*.h'
+  s.public_header_files = '**/CRMTSDK.framework/Headers/*.h'
+  s.vendored_frameworks = '**/CRMTSDK.framework'
   
   # s.resource_bundles = {
   #   'CK_pod' => ['CK_pod/Assets/*.png']
