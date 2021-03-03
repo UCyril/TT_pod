@@ -9,7 +9,7 @@
 #import "TTCViewController.h"
 #import "Student.h"
 #import "Person.h"
-//#import "CRMTSDK.h"
+#import "CRMTSDK.h"
 
 @interface TTCViewController ()
 
@@ -21,8 +21,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    Student *p = [Student new];
-    [p addPerson];
+//    Student *p = [Student new];
+//    [p addPerson];
     
     Person *p1 = [Person new];
     [p1 addPerson];

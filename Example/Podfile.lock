@@ -1,5 +1,6 @@
 PODS:
-  - CK_pod (0.1.0)
+  - CK_pod (0.1.0):
+    - SVProgressHUD
   - Expecta (1.0.6)
   - "Expecta+Snapshots (3.1.1)":
     - Expecta (~> 1.0)
@@ -11,6 +12,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - Specta (1.0.7)
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - CK_pod (from `../`)
@@ -25,17 +27,19 @@ SPEC REPOS:
     - "Expecta+Snapshots"
     - FBSnapshotTestCase
     - Specta
+    - SVProgressHUD
 
 EXTERNAL SOURCES:
   CK_pod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CK_pod: 6bb625f5cc1d30c849a86dbec29edf8319afdf2a
+  CK_pod: 5c77619b8edcfced20848cbbf26654630a883c78
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
 PODFILE CHECKSUM: 1c1b2a99b343e5ae87127af3491e901973eb9d06
 

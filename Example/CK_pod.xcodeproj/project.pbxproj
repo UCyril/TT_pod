@@ -348,10 +348,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CK_pod_Example/Pods-CK_pod_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CK_pod/CK_pod.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CK_pod.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
