@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "CRMTSDK.h"
+#import "Person.h"
 #import "Student.h"
 
 FOUNDATION_EXPORT double CK_podVersionNumber;

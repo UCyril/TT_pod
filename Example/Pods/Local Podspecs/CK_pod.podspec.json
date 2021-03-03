@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of CK_pod.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1276865377@qq.com/CK_pod",
+  "homepage": "https://github.com/UCyril/TT_pod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "1276865377@qq.com": "1276865377@qq.com"
   },
   "source": {
-    "git": "https://github.com/1276865377@qq.com/CK_pod.git",
+    "git": "https://github.com/UCyril/TT_pod.git",
     "tag": "0.1.0"
   },
   "platforms": {

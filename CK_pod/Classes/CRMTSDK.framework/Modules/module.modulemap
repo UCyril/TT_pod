@@ -1,0 +1,6 @@
+framework module CRMTSDK {
+  umbrella header "CRMTSDK.h"
+
+  export *
+  module * { export * }
+}
